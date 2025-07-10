@@ -1,0 +1,11 @@
+data_root: data/graph_data
+batch_size: 16
+hidden_dim: 128
+num_classes: 10  # This will be dynamically determined from dataset
+lr: 0.0008
+epochs: 10
+num_layers: 4
+curvature: 0.7  # Hyperbolic curvature parameter
+weight_decay: 1e-4
+step_size: 20  # For learning rate scheduler
+gamma: 0.5  # Learning rate decay factor
